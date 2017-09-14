@@ -1,20 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="spa">
 
 <head>
 
 <title> Philippe Garoflid: SPANISH 322 </title>
 
+
 <style>
 
-h1 {
+
+header {
 	font-family: Futura, sans-serif;
-	font-size: 40px;
-	color: DarkSlateGray;
+	font-size: 25px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	padding-left: 5px;
 	}
+	
+
+	html { 
+  				background: url(homebackground.jpg) no-repeat center fixed; 
+  				background-size: cover;
+				}		
+	
+	
+	.assignment {
+		border: solid;
+		border-radius: 10px;
+		border-color: grey;
+		background: green;
+		padding: 0.5cm 1cm;
+		margin-bottom: 20px;
+		}		
+
+
+
+	.green {
+	text-transform: uppercase;
+	color: green;
+	margin-bottom: 5px;
+	}
+	
+	.data {
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 5px;
+	color: orange;
+	
+	}
+
+	h3 {
+	text-transform: uppercase;
+	}
+
+
+.center {
+position: absolute;
+top: 120px;
+left: 400px;
+}
+
+.float-center {
+  float: right;
+
+  position: relative;
+  left: -50%; /* or right 50% */
+  top:-107px;
+  
+  text-align: left;
+}
+	
+	
+.float-left {
+
+  float: right;
+
+  position: relative;
+  left: 0%; /* or right 50% */
+  top: -107px;
+  text-align: left;
+}
+
+
 
 </style>
 
@@ -25,16 +92,72 @@ h1 {
 
 
 
+<header>
+<h1><span style="color:green">University of Miami </span><span style="color:orange">SPANISH 322</span></h1>
+</header>
+
 <body>
 
-<h1>SPANISH 322</h1>
+<div class="w3-container">
+<h2 class="green">Estudiente</h2>
+<p class="data">Philippe M. Garoflid-Oprescu</p>
 
-<p></p>
-<p>bla bla bla</p>
+<div class="center">
+<h2 class="green">Profesora</h2>
 
-<a href="secondassignment.html"> Link to second assignment </a>
+<p class="data">Susanna Alles</p>
+</div>
 
-<p> Now it should work </p>
+<div class="float-left">
+<h2 class="green">Semestre</h2>
+<p class="data">Oto&ntilde;o</p>
+</div> 
+
+
+<h2 class="listtitle"> Lista de tareas</h2>
+
+<div class="assignment">
+<h3> Tarea #1 </h3>
+<p>  <u>Instrucciones:</u> <br> Pensad de qué manera lo digital (cualquier tecnología, dispositivo, medio social, etc.) utilizáis en vuestra vida cotidiana. </p> 
+
+<p><u> Fecha límite para la tarea:</u> <br> Miércoles 30 de agosto </p>
+
+<p><u>Comentarios personales:</u> <br> Para esta primera tarea, hablo de la relación que tengo con el mundo digital y más particularmente con los medios sociales como Facebook. <br> Yo explico cómo puede ser útil para alguien como yo que viaja mucho y tiene amigos y familiares en todo el mundo, pero también expreso algunas críticas y preocupaciones sobre cómo los medios sociales pueden ser utilizados de manera negativa. </p>
+<a href="firstassignment.html"> Primera Tarea </a>
+</div>
+
+
+<div class="assignment">
+<h3> Tarea #2 - Parte 1 </h3>
+<p> <u>Instrucciones:</u><br> después de haber realizado los tutoriales sobre HTML y CSS de W3schools <https://www.w3schools.com/html/default.asp> y de Learn to Code HTML & CSS <http://learn.shayhowe.com/html-css/>, realicéis una pequeña página web, a modo de prueba, con cualquier contenido. </p>
+
+<p><u>Fecha límite para la tarea:</u><br> Miércoles 15 de septiembre </p>
+
+
+<p><u>Comentarios personales:</u><br> </p>
+
+
+<a href="secondassignment.html"> Segunda Tarea </a>
+</div>
+
+<div class="assignment">
+<h3> Tarea #2 - Parte 2 </h3>
+<p><u>Instrucciones:</u><br> La segunda parte de la tarea 2 [HM-2/2] consiste en crear vuestra página web. </p>
+
+<p><u>Fecha límite para la tarea:</u><br> No atribuido </p>
+
+
+<p><u>Comentarios personales:</u><br> </p>
+
+
+<a href="secondassignmentpart2.html"> Segunda Tarea - Parte 2  </a>
+</div>
+
+
+
+
+
+
 
 </body>
 </html>
