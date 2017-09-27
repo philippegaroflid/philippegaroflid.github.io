@@ -1,0 +1,65 @@
+h1 {
+	font-family: Futura, sans-serif;
+	font-size: 40px;
+	color: DarkSlateGray;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding-left: 5px;
+	}
+
+		
+nav {
+	color: grey;
+	
+	border-style: solid;
+	border-radius: 5px;
+	padding-left: 10px;
+	word-spacing: 30px;
+	}
+	
+
+a {
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 20px;
+	}
+	
+a:visited, a:link {
+	color: green;
+	}
+
+a:hover {
+    color: DarkRed;
+	}
+	
+h2 {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-family: Futura, sans-serif;
+	}
+
+h3 {
+	font-family: Futura, sans-serif;
+	margin-top:50px;
+	}
+	
+p {
+	font-family: Futura, sans-serif;
+	}
+	
+	
+	.pull-right {
+		float: right;
+		height: 20px;
+		}
+		
+		.pull-left {
+		float: left;
+		}	
+		
+		
+.footer {
+		position: relative;
+		top: 170px;
+		}
+		
