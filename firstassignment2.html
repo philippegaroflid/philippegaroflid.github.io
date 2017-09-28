@@ -12,8 +12,35 @@ word-spacing: 0px;}
 
 .navhomework {
 margin-right: 10px;}
-	
-	
+
+.blink_text {
+
+    animation:1s blinker linear infinite;
+    -webkit-animation:1s blinker linear 2;
+    -moz-animation:1s blinker linear infinite;
+
+     color: red;
+    }
+
+    @-moz-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @-webkit-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+
 
 </style>
 
@@ -40,7 +67,7 @@ margin-right: 10px;}
 
 <body>
 
-<h2> &#9940; Esta es la primera tarea &#9940;</h2> 
+<h2>&#9940;<span class="blink_text"> Esta es la primera tarea </span> &#9940;</h2> 
 
 
 <h2> Primera Tarea </h2> 
